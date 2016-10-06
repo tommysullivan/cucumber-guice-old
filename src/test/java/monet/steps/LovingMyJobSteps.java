@@ -4,18 +4,18 @@ import com.google.inject.Inject;
 import cucumber.api.java.en.Given;
 import org.openqa.selenium.WebDriver;
 
-public class WebDriverSteps {
-	
+public class LovingMyJobSteps {
+
 	private final WebDriver webDriver;
 
 	@Inject
-	public WebDriverSteps(WebDriver webDriver) {
+	public LovingMyJobSteps(WebDriver webDriver) {
 		this.webDriver = webDriver;
 	}
 	
-	@Given("^I am running Firefox WebDriver$")
+	@Given("^I love my job$")
 	public void I_am_running_Firefox_WebDriver() {
-		webDriver.navigate().to("http://example.com");
+		webDriver.navigate().to("http://cnn.com");
 	}
 
 }

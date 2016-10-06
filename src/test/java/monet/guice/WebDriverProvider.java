@@ -1,10 +1,9 @@
 package monet.guice;
 
 import com.google.inject.Provider;
-import com.google.inject.Singleton;
 import org.openqa.selenium.WebDriver;
 
-@Singleton
+@ScenarioScoped
 public class WebDriverProvider implements Provider<WebDriver> {
 
     private WebDriver webDriver;

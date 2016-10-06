@@ -26,7 +26,6 @@ public class Hooks {
 
     @Before()
 	public void before(Scenario scenario) throws MalformedURLException {
-
 //        DesiredCapabilities caps = new DesiredCapabilities();
 //        String jenkinsBuildNumber = null;
 //
