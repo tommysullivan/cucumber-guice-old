@@ -1,4 +1,4 @@
-package test.java.guice;
+package guice;
 
 import com.google.inject.Key;
 import com.google.inject.OutOfScopeException;

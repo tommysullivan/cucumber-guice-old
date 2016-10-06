@@ -1,4 +1,4 @@
-package test.java.cucumber;
+package cucumber;
 
 import com.google.inject.Inject;
 import cucumber.api.java.en.Given;

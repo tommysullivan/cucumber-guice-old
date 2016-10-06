@@ -1,4 +1,4 @@
-package test.java.guice;
+package guice;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;

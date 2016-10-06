@@ -1,4 +1,4 @@
-package test.java.common;
+package common;
 
 import com.saucelabs.saucerest.SauceREST;
 import org.json.JSONException;

@@ -1,10 +1,10 @@
-package test.java.cucumber;
+package cucumber;
 
 import com.google.inject.Inject;
-import test.java.guice.WebDriverProvider;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import guice.WebDriverProvider;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.net.MalformedURLException;

@@ -1,4 +1,4 @@
-package test.java.guice;
+package guice;
 
 import com.google.inject.*;
 import org.openqa.selenium.WebDriver;
