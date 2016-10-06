@@ -1,4 +1,4 @@
-package cucumber;
+package monet.cucumber;
 
 import com.google.inject.Inject;
 import cucumber.api.java.en.Given;

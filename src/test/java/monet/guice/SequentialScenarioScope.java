@@ -1,4 +1,4 @@
-package guice;
+package monet.guice;
 
 import com.google.inject.Key;
 import com.google.inject.OutOfScopeException;
@@ -15,7 +15,7 @@ public class SequentialScenarioScope implements ScenarioScope {
         return new Provider<T>() {
             public T get() {
                 if (scenarioValues == null) {
-                    throw new OutOfScopeException("Cannot access " + key + " outside of a scoping block");
+                    throw new OutOfScopeException("Cannot access " + key + " outside of cucumber scoping block");
                 }
 
                 @SuppressWarnings("unchecked")

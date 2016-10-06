@@ -1,4 +1,4 @@
-package common;
+package monet.common;
 
 import com.saucelabs.saucerest.SauceREST;
 import org.json.JSONException;

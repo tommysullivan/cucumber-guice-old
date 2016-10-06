@@ -1,4 +1,4 @@
-package guice;
+package monet.guice;
 
 import com.google.inject.AbstractModule;
 
