@@ -1,17 +1,16 @@
-package monet.cucumber;
+package monet.steps;
 
 import com.google.inject.Inject;
 import cucumber.api.java.en.Given;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebDriverSteps {
 	
 	private final WebDriver webDriver;
 
-    public WebDriverSteps() {
-        this(new ChromeDriver());
-    }
+//    public WebDriverSteps() {
+//        this(new ChromeDriver());
+//    }
 
 	@Inject
 	public WebDriverSteps(WebDriver webDriver) {

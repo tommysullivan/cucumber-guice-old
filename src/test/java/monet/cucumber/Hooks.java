@@ -14,10 +14,6 @@ public class Hooks {
     private final WebDriverProvider webDriverProvider;
 //    private boolean sauceLabRun;
 
-    public Hooks() {
-        this(new WebDriverProvider());
-    }
-
     @Inject
     public Hooks(WebDriverProvider webDriverProvider) {
         this.webDriverProvider = webDriverProvider;
